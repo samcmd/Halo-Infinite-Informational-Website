@@ -1,0 +1,11 @@
+echo "# Lab-3-Sam-Schultz" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:cs-148-Fall-2021/Lab-3-Sam-Schultz.git
+git push -u origin main
+
+git remote add origin git@github.com:cs-148-Fall-2021/Lab-3-Sam-Schultz.git
+git branch -M main
+git push -u origin main
