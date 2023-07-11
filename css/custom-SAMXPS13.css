@@ -1,0 +1,178 @@
+:root{
+    --main-color: black;
+    --main-bg-color: lavenderblush;
+}
+
+figure{
+    float: left;
+    text-align: center;
+    width: 30%;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    border: thin solid var(--main-color);
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+    max-width: 50em;
+    line-height: 1.3em;
+    padding: 1%;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    text-align: center;
+}
+
+html{
+    background-color: white;
+}
+
+nav{
+    background-color: var(--main-bg-color);
+    text-align: center;
+}
+
+article, section, aside, nav{
+    padding: 1%;
+}
+
+table{
+    clear: both;
+}
+
+form{
+    max-width: 400px;
+    border: medium solid plum;
+    background-color: black;
+    color: plum;
+    padding: 1%;
+    margin: auto;
+}
+
+.contact label{
+    font-size: xx-small; 
+}
+fieldset{
+    border: none;
+}
+
+fieldset p{
+    margin-bottom: 1em;
+}
+
+legend {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+label + input, label + textarea{
+    display: block;
+}
+
+input[type=text]{
+    border: 0;
+    background-color: black;
+    border-bottom: medium solid plum;
+    width: 100%;
+    height: 2em;
+    color: plum;
+    font-size: large;
+}
+
+select{
+  font-size: large;
+}
+
+textarea{
+    width: 100%;
+    height: 5em;
+}
+
+.buttons{
+    text-align: center
+}
+
+.right{
+    float: right;
+    margin-left: 3%;
+}
+
+.small {
+    width: 20%;
+}
+
+input[type=submit]{
+    width: 80%;
+    text-align: center;
+    font-size: 2em;
+    background-color: plum;
+    color: lavenderblush;
+    border-color: lavenderblush;
+    border-radius: .25em
+}
+
+/* grid setup */
+body{
+    display: grid;
+    grid-template-areas: "nav" "header" "main" "footer";
+}
+
+header{
+    grid-area: header;
+}
+nav {
+    grid-area: nav;
+    position: sticky;
+    top: 0;
+    max-width: 100%;
+}
+
+nav a{
+    display: inline-block;
+    padding: 0 1em;
+}
+
+main{
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+}
+
+.animal{
+    float: left;
+    width: 29%;
+    text-align: center;
+    border: thin dimgrey solid;
+    margin: 1em 0em 3em .8em;
+    padding: 1em .5em .75em .5em;
+}
+
+.welcome{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    padding-bottom: 2.5em;
+    margin-bottom: 1.5em;
+}
+
+.info{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+}
+
+.communication{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+}
+
+.administration{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+}
